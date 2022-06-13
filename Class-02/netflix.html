@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        button {
+            border-radius: 5px;
+            color: white;
+            background-color: red;
+            border: 0;
+            font-weight: 600;
+            font-size: 15px;
+            padding: 10px 20px;
+        }
+
+        nav {
+            margin: 0px 20px;
+            height: 100px;
+            /* background-color: black; */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        main {
+            height: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        header{
+            color: white;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(images/header-bg.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        h1{
+            font-size: 45px;
+        }
+        h4{
+            font-size: 25px;
+            margin: 7px 0px;
+        }
+        p{
+            font-size: 22px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div>
+                <img style="height: 100px;" src="images/netflix-logo.png" alt="">
+            </div>
+            <div>
+                <button>Sign Out</button>
+            </div>
+        </nav>
+        <main>
+            <div>
+                <p>Welcome back!</p>
+                <h1>Unlimited movies, TV</h1>
+                <h1>shows, and more.</h1>
+                <h4>Watch anywhere. Cancel anytime.</h4>
+                <button>Finish Sign Up</button>
+            </div>
+        </main>
+    </header>
+</body>
+
+</html>
